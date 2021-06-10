@@ -6,9 +6,10 @@ namespace HjælpJakob
     {
         public static void Main()
         {
-            //Card withDraw = new WithDraw("Anne", 12);
+            //Creating an object of send ass a single message
             Send sendMessage = new Send("Simone", "Kaj", "I suppose this is a very important message", "important!", "Julie");
             
+            //checking how it works
             Console.WriteLine("To: " + sendMessage.To);
             Console.WriteLine("From: " + sendMessage.From);
             Console.WriteLine("Message: " + sendMessage.Body);
